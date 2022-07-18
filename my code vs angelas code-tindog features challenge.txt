@@ -1,0 +1,101 @@
+my HTML CODE:
+<section id="feature">
+      <div class="row">
+        <div class="col-md-4">
+          <i class="icon fa-solid fa-circle-check font-awesome"></i>
+          <h3 class="text-1">Easy to use.</h3>
+          <p class="text-2">So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="icon fa-solid fa-bullseye font-awesome"></i>
+          <h3 class="text-1">Elite Clientele</h3>
+          <p class="text-2">We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="icon fa-solid fa-heart font-awesome"></i>
+          <h3 class="text-1">Guaranteed to work.</h3>
+          <p class="text-2">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+my css code:
+
+.font-awesome {
+  color: #ef8172;
+  font-size: 5rem;
+  padding: 3%;
+}
+
+.font-awesome:hover {
+  color: #ff4c68;
+}
+
+.text-1 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 3%;
+}
+
+.text-2 {
+  color: #8f8f8f;
+  margin: auto 55px;
+}
+
+.col-md-4 {
+  padding: 7%;
+  text-align: center;
+}
+
+Angela's CSS CODE:
+
+/* challenge */
+/* Features */
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+#feature{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+   color:#ff4c68;
+}
+Angela's Html code:
+
+  <section id="feature">
+      <div class="row">
+        <div class="feature-box col-md-4">
+          <i class="icon fa-solid fa-circle-check fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="feature-box col-md-4">
+          <i class="icon fa-solid fa-bullseye fa-4x"></i>
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="feature-box col-md-4">
+          <i class="icon fa-solid fa-heart fa-4x"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+  </section>
+
